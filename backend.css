@@ -1,0 +1,228 @@
+.gnav .menu{
+  display: flex;
+}
+
+.gnav .menu li {
+  list-style: none;
+}
+
+.gnav .menu li + li {
+  margin-left: 40px; /* メニューそれぞれに間隔をあけるため */
+}
+
+.gnav {
+  position: fixed;
+}
+
+a {
+  color: #000000;
+}
+
+
+
+body {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+  font-size: 17px;
+  width: 91%;
+  max-width: 1280px;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  height: 1500px; 
+  background-size: 1000% 1000%;
+  background: linear-gradient(45deg, #3bade3,#9844b7,#44ea76);
+  animation: bggradient 10s ease infinite;
+ 
+
+}
+
+@keyframes bggradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+#最初の箱
+
+.h1 {
+  font-size: large;
+}
+
+.header_title {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 9vmax;
+  line-height: 1;
+}
+
+.header_inner {
+  margin-top: 55px;
+  background-color: #167913;
+  padding: 20px 5%;
+  height: 670px;
+  border-bottom: 10px #51a14e solid;
+}
+
+.header_text {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+  margin-top: 434px;
+  color: #fffdfd;
+  font-size: 40px;
+  
+}
+
+.main_inner {
+  margin-top: 55px;
+  background-color: #5eb6ff;
+  padding: 20px 5%;
+  height: 670px;
+  display: flex;
+  border-bottom: 10px rgba(214, 213, 213, 0.507) solid;
+  
+}
+
+.image1 {
+  padding-top: 150px;
+  max-width: 100%;
+  max-height: 100%;
+  border-bottom: white solid;
+ 
+}
+
+.main_text {
+  color: white;
+  font-family: serif;
+  font-weight: 400;
+  margin-top: 55px;
+  padding-top: 10px;
+  padding-left: 180px;
+  font-size: 38px;
+ 
+}
+
+.main_title {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 9vmax;
+  line-height: 1;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.main_inner2 {
+  margin-top: 55px;
+  background-color: #ffb867;
+  padding: 20px 5%;
+  height: 670px;
+  display: flex;
+  border-bottom: 10px rgba(255, 176, 85, 0.753) solid;
+}
+
+.main_title2 {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 9vmax;
+  line-height: 1;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 10px;
+}
+
+.main_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main_items:after {
+  content: "";
+  display: block;
+  width: 32%;
+  height: 0;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  margin-top: 150px;
+  margin-right: 70px;
+}
+
+.main_inner3 {
+  margin-top: 55px;
+  background-color: #fa6060;
+  padding: 20px 5%;
+  height: 670px;
+  display: flex;
+  border-bottom: 10px rgba(255, 130, 130, 0.705) solid;
+  justify-content: space-between;
+}
+
+.header .main .footer {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+}
+
+.footer {
+  height: 20px;
+}
+
+.footer__text {
+  color: #2f2f2f;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.main_title3 {
+  text-align: left;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 9vmax;
+  line-height: 1;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.main_flex2 {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 120px;
+  padding-left: 60px;
+}
+
+
+.text {
+  margin-bottom: 150px;
+}
+
+.p1 {
+margin-top: 50px;
+font-size: 30px;
+}

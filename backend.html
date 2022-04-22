@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'kvp0aqh',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <link rel="stylesheet" href="backend.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+  
+
+   <header class="header element" id="page1">
+    <nav class="gnav">
+        <ul class="menu">
+            <li><a href="#"></a></li>
+            <li><a href="#main_inner"></a></li>
+            <li><a href="#main_inner2"></a></li>
+            <li><a href="#main_inner3"></a></li>
+    
+        </ul>
+    </nav>
+
+       <div class="header_inner" id="header_inner">
+
+           <h1 class="header_title" >
+               web アプリ1班
+           </h1>
+
+           <p class="header_text">
+               <strong>バックエンドとは</strong>
+            </p></div>
+          
+</header>
+
+   <main>
+
+    <div class="main_inner " id="main_inner">
+      <div class="main_flex"><h1 class="main_title">バックエンドとは</h1>
+        <div class="p1">バックエンドは、サーバーサイド（Webサーバー側）やデータベースのシステム<br>など、ユーザーの目に見えない部分のことです。
+          ユーザーが入力した内容などのデータ処理やデータベースへの保存、検索結果の出力といったことを行います。<br>
+          ユーザーからは見えない後方の部分の処理を担っていることが、バックエンドと呼ばれている理由です。
+            バックエンドの開発で利用する言語には、JavaやJavaScript、PHP、Python、Rubyといったプログラミング言語があり、<br>
+            開発効率を高めるための各種フレームワークを利用して開発が行われます。<br>
+          
+   </div>
+       </div>        
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p class="footer__text"><small>&copy;2022 </small></p>
+</footer>
+
+<script src="js/Ito.js"></script>
+</body>
+</html>
